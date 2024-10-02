@@ -2,7 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder, ApplicationIntegrationType} = require
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName("r1-tracker")
+		.setName("tracker")
 		.setDescription("Create a tracker embed for mm2")
 		.setIntegrationTypes([ApplicationIntegrationType.GuildInstall, ApplicationIntegrationType.UserInstall])
 		.addStringOption(option =>
